@@ -1,7 +1,12 @@
 # Terraform AWS Module - LEE SEUNG JOON : VPC
 
 ## Create AWS Resource List
-- 
+- `aws_vpc`
+- `aws_internet_gateway`
+- `aws_subnet`
+- `aws_route_table`
+- `aws_route_table_association`
+
 ## Example Template
 ```HCL
 module "vpc" {
